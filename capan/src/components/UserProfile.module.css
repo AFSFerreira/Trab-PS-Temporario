@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  /* background-image: url("../assets/2b-wallpaper-video.mp4");
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size: cover; */
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 320px;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  color: white;
+}
+
+.card h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.card p {
+  margin: 0.5rem 0;
+  color: #555;
+}
